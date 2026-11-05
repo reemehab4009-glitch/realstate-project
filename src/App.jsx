@@ -9,7 +9,7 @@ import ProjectDetail from './pages/Zones/ProjectDetail'
 import ZonesDetail from './pages/Zones/ZonesDetails'
 import Units from './pages/Units/Units'
 import Contactus from './pages/Contactus/Contactus'
-import Layout from './components/layout/layout'
+import Layout from './components/Layout/Layout'
 import UnitDetails from './pages/Units/UnitDetails'
 
 
