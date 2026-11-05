@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://white-seahorse-266682.hostingersite.com/api/v1" },
+    { "source": "/api/:path*", "destination": "https://white-seahorse-266682.hostingersite.com/api/:path*" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
