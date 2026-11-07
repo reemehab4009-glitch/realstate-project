@@ -7,7 +7,7 @@ export default function CardsDev({
   return (
     <div className="bg-white rounded-2xl w-full max-w-sm h-full shadow-md overflow-hidden border border-gray-100 flex flex-col">
       <div className="relative w-full aspect-4/3">
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+        <img src={image} alt={title} className="w-full h-75 object-cover" />
         <span className="absolute top-3 right-3 bg-[#8E1616] text-white text-xs font-semibold px-3 py-1 rounded shadow">
           {status}
         </span>

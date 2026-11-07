@@ -50,6 +50,7 @@ export default function Developers() {
               image={developer.images?.[0]}
               title={developer.name_en}
               onViewDetails={() => navigate(`/developer/${developer.id}`)}
+              
             />
           ))}
         </div>
