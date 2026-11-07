@@ -50,6 +50,10 @@ export default function FutureLandSlider() {
     pauseOnHover: true,
   };
 
+
+
+
+
   const pick = (v) => (Array.isArray(v) ? v[0] : v);
 
   return (
@@ -64,11 +68,9 @@ export default function FutureLandSlider() {
                   alt={developer.name_en}
                   className="w-full aspect-4/3 sm:aspect-auto sm:h-56 object-cover rounded-2xl"
                 />
-                {developer.city_en && (
-                  <span className="absolute top-3 right-3 bg-red-700 text-white text-xs px-3 py-1 rounded">
-                    {developer.city_en}
+                  <span className="absolute top-3 right-3 bg-[#8E1616] text-white text-xs font-semibold px-3 py-1 rounded shadow">
+                  new cairo
                   </span>
-                )}
               </div>
 
               <div className="flex items-center gap-3 mt-4 min-h-12">
@@ -80,7 +82,7 @@ export default function FutureLandSlider() {
 
               <button
                 onClick={() => navigate(`/developer/${developer.id}`)}
-                className="w-full mt-4 border border-red-700 text-red-700 rounded-lg py-2 hover:bg-red-700 hover:text-white transition"
+                className="w-full mt-4 border border-[#8E1616] text-[#8E1616]  rounded-lg py-2 hover:bg-[#8E1616] font-medium text-sm hover:text-white transition-colors"
               >
                 View Details
               </button>
